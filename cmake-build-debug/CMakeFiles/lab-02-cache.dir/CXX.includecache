@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Experiment.h
+iostream
+-
+ctime
+-
+chrono
+-
+vector
+-
+random
+-
+
+/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.cpp
+algorithm
+-
+random
+-
+Experiment.h
+/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.h
+

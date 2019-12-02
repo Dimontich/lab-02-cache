@@ -1,0 +1,117 @@
+investigaion:
+	travel_order: "Direction"
+	experiments:
+	- experiment:
+		number: 1
+		input_data:
+			buffer_size:128 kB
+		results:
+			duration:39 ms
+		number: 2
+		input_data:
+			buffer_size:256 kB
+		results:
+			duration:75 ms
+		number: 3
+		input_data:
+			buffer_size:512 kB
+		results:
+			duration:161 ms
+		number: 4
+		input_data:
+			buffer_size:1024 kB
+		results:
+			duration:374 ms
+		number: 5
+		input_data:
+			buffer_size:2048 kB
+		results:
+			duration:660 ms
+		number: 6
+		input_data:
+			buffer_size:4096 kB
+		results:
+			duration:1350 ms
+		number: 7
+		input_data:
+			buffer_size:8192 kB
+		results:
+			duration:2788 ms
+investigaion:
+	travel_order: "Reverse"
+	experiments:
+	- experiment:
+		number: 1
+		input_data:
+			buffer_size:128 kB
+		results:
+			duration:38 ms
+		number: 2
+		input_data:
+			buffer_size:256 kB
+		results:
+			duration:88 ms
+		number: 3
+		input_data:
+			buffer_size:512 kB
+		results:
+			duration:180 ms
+		number: 4
+		input_data:
+			buffer_size:1024 kB
+		results:
+			duration:369 ms
+		number: 5
+		input_data:
+			buffer_size:2048 kB
+		results:
+			duration:716 ms
+		number: 6
+		input_data:
+			buffer_size:4096 kB
+		results:
+			duration:1364 ms
+		number: 7
+		input_data:
+			buffer_size:8192 kB
+		results:
+			duration:3105 ms
+investigaion:
+	travel_order: "Random"
+	experiments:
+	- experiment:
+		number: 1
+		input_data:
+			buffer_size:128 kB
+		results:
+			duration:341 ms
+		number: 2
+		input_data:
+			buffer_size:256 kB
+		results:
+			duration:845 ms
+		number: 3
+		input_data:
+			buffer_size:512 kB
+		results:
+			duration:1652 ms
+		number: 4
+		input_data:
+			buffer_size:1024 kB
+		results:
+			duration:3536 ms
+		number: 5
+		input_data:
+			buffer_size:2048 kB
+		results:
+			duration:6707 ms
+		number: 6
+		input_data:
+			buffer_size:4096 kB
+		results:
+			duration:16355 ms
+		number: 7
+		input_data:
+			buffer_size:8192 kB
+		results:
+			duration:51363 ms
