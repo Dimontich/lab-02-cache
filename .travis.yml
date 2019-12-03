@@ -16,4 +16,4 @@ jobs:
 
 notifications:
     email: false
-  - master
+
