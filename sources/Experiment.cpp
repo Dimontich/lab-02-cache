@@ -1,6 +1,3 @@
-//
-// Created by cezar on 02.12.2019.
-//
 #include <algorithm>
 #include <random>
 #include "Experiment.h"

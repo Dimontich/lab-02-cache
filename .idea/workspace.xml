@@ -12,8 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17cdfc4c-4675-412a-a7e1-24cdd8653a87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Experiment.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Experiment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Investigation.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Investigation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/Experiment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/Experiment.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/Investigation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/Investigation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/lab02_cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lab02_cache.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +68,7 @@
       <updated>1575310232908</updated>
       <workItem from="1575310234289" duration="1377000" />
       <workItem from="1575311683694" duration="27000" />
+      <workItem from="1575629594130" duration="495000" />
     </task>
     <servers />
   </component>
