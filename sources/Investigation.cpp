@@ -1,4 +1,4 @@
-// Copyright [01.12.2019] <CEZAR>
+// 01.12.2019 by CEZAR
 #include "Investigation.h"
 
 
@@ -34,7 +34,8 @@ void Investigation::End_expirement(std::ofstream& file)
     {
         file << "  number: " << i + 1 << std::endl;
         file << "  input_data:" << std::endl;
-        file << "   buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024<< " kB" << std::endl;
+        file << "   buffer_size:" << result[i]->elements_amount *
+        sizeof(uint64_t) / 1024<< " kB" << std::endl;
         file << "  results:" << std::endl;
         file << "   duration:" << result[i]->time.direct << " ms" << std::endl;
     }
@@ -47,7 +48,8 @@ void Investigation::End_expirement(std::ofstream& file)
     {
         file << "  number: " << i + 1 << std::endl;
         file << "  input_data:" << std::endl;
-        file << "   buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024<< " kB" << std::endl;
+        file << "   buffer_size:" << result[i]->elements_amount *
+        sizeof(uint64_t) / 1024<< " kB" << std::endl;
         file << "  results:" << std::endl;
         file << "   duration:" << result[i]->time.reverse << " ms" << std::endl;
     }
@@ -60,7 +62,8 @@ void Investigation::End_expirement(std::ofstream& file)
     {
         file << "  number: " << i + 1 << std::endl;
         file << "  input_data:" << std::endl;
-        file << "   buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024 << " kB" << std::endl;
+        file << "   buffer_size:" << result[i]->elements_amount *
+        sizeof(uint64_t) / 1024 << " kB" << std::endl;
         file << "  results:" << std::endl;
         file << "   duration:" << result[i]->time.random << " ms" << std::endl;
     }
