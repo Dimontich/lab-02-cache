@@ -1,4 +1,4 @@
-// Copyright 2019 CERZAR
+// Copyright 2019 Dimontich
 #include "Investigation.h"
 
 int main()
