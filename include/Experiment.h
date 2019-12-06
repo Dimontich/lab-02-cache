@@ -1,4 +1,4 @@
-// 01.12.2019 by CEZAR
+// Copyright 2019 CERZAR
 #pragma once
 #include <iostream>
 #include <ctime>
