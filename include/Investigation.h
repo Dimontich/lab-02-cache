@@ -1,3 +1,4 @@
+// Copyright [01.12.2019] <CEZAR>
 #pragma once
 #include "Experiment.h"
 #include <iostream>

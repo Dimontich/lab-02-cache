@@ -1,3 +1,4 @@
+// Copyright [01.12.2019] <CEZAR>
 #include "Investigation.h"
 
 
@@ -26,42 +27,42 @@ void Investigation::Begin_expirement()
 void Investigation::End_expirement(std::ofstream& file)
 {
     file << "investigaion:" << std::endl;
-    file << "	travel_order: \"Direction\"" << std::endl;
-    file << "	experiments:" << std::endl;
-    file << "	- experiment:" << std::endl;
+    file << " travel_order: \"Direction\"" << std::endl;
+    file << " experiments:" << std::endl;
+    file << " - experiment:" << std::endl;
     for (size_t i = 0; i < result.size(); i++)
     {
-        file << "		number: " << i + 1 << std::endl;
-        file << "		input_data:" << std::endl;
-        file << "			buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024<< " kB" << std::endl;
-        file << "		results:" << std::endl;
-        file << "			duration:" << result[i]->time.direct << " ms" << std::endl;
+        file << "  number: " << i + 1 << std::endl;
+        file << "  input_data:" << std::endl;
+        file << "   buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024<< " kB" << std::endl;
+        file << "  results:" << std::endl;
+        file << "   duration:" << result[i]->time.direct << " ms" << std::endl;
     }
 
     file << "investigaion:" << std::endl;
-    file << "	travel_order: \"Reverse\"" << std::endl;
-    file << "	experiments:" << std::endl;
-    file << "	- experiment:" << std::endl;
+    file << " travel_order: \"Reverse\"" << std::endl;
+    file << " experiments:" << std::endl;
+    file << " - experiment:" << std::endl;
     for (size_t i = 0; i < result.size(); i++)
     {
-        file << "		number: " << i + 1 << std::endl;
-        file << "		input_data:" << std::endl;
-        file << "			buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024<< " kB" << std::endl;
-        file << "		results:" << std::endl;
-        file << "			duration:" << result[i]->time.reverse << " ms" << std::endl;
+        file << "  number: " << i + 1 << std::endl;
+        file << "  input_data:" << std::endl;
+        file << "   buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024<< " kB" << std::endl;
+        file << "  results:" << std::endl;
+        file << "   duration:" << result[i]->time.reverse << " ms" << std::endl;
     }
 
     file << "investigaion:" << std::endl;
-    file << "	travel_order: \"Random\"" << std::endl;
-    file << "	experiments:" << std::endl;
-    file << "	- experiment:" << std::endl;
+    file << " travel_order: \"Random\"" << std::endl;
+    file << " experiments:" << std::endl;
+    file << " - experiment:" << std::endl;
     for (size_t i = 0; i < result.size(); i++)
     {
-        file << "		number: " << i + 1 << std::endl;
-        file << "		input_data:" << std::endl;
-        file << "			buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024 << " kB" << std::endl;
-        file << "		results:" << std::endl;
-        file << "			duration:" << result[i]->time.random << " ms" << std::endl;
+        file << "  number: " << i + 1 << std::endl;
+        file << "  input_data:" << std::endl;
+        file << "   buffer_size:" << result[i]->elements_amount * sizeof(uint64_t) / 1024 << " kB" << std::endl;
+        file << "  results:" << std::endl;
+        file << "   duration:" << result[i]->time.random << " ms" << std::endl;
     }
 }
 

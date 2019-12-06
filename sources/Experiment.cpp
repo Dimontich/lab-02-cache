@@ -1,3 +1,4 @@
+// Copyright [01.12.2019] <CEZAR>
 #include <algorithm>
 #include <random>
 #include "Experiment.h"
@@ -9,7 +10,7 @@ Experiment::Experiment(uint64_t number)
 
     std::srand(clock());
     for (uint64_t i = 0; i < elements_amount; ++i)
-        buffer[i] = rand();
+        buffer[i] = rand_r(reinterpret_cast<unsigned int *>(1));
 }
 
 void Experiment::Direct_passage()
@@ -21,9 +22,10 @@ void Experiment::Direct_passage()
         for (size_t j = 0; j < elements_amount; j++)
             value = buffer[j];
     auto end = std::chrono::system_clock::now();
-    buffer[0]=value;
+    buffer[0] = value;
 
-    time.direct = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
+    time.direct = std::chrono::duration_cast<std::chrono::milliseconds>(
+            end - begin).count();
 }
 
 void Experiment::Reverse_passage()
@@ -35,9 +37,10 @@ void Experiment::Reverse_passage()
         for (size_t j = elements_amount; j > 0; j--)
             value = buffer[j];
     auto end = std::chrono::system_clock::now();
-    buffer[0]=value;
+    buffer[0] = value;
 
-    time.reverse = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
+    time.reverse = std::chrono::duration_cast<std::chrono::milliseconds>(
+            end - begin).count();
 }
 
 void Experiment::Random_passage()
@@ -46,16 +49,18 @@ void Experiment::Random_passage()
     std::vector<uint64_t> index;
     for (size_t i = 0; i < elements_amount; i++)
         index.push_back(i);
-    std::shuffle(index.begin(), index.end(), std::mt19937(std::random_device()()));
+    std::shuffle(index.begin(), index.end(), std::mt19937(
+            std::random_device()()));
 
     auto begin = std::chrono::system_clock::now();
     for (size_t i = 0; i < 1000; i++)
         for (size_t j : index)
             value = buffer[j];
     auto end = std::chrono::system_clock::now();
-    buffer[0]=value;
+    buffer[0] = value;
 
-    time.random = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
+    time.random = std::chrono::duration_cast<std::chrono::milliseconds>(
+            end - begin).count();
 }
 
 void Experiment::Begin_passages()
