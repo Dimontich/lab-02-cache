@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.cpp" "/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o"
-  "/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Investigation.cpp" "/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o"
-  "/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/lab02_cache.cpp" "/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o"
+  "/Users/dmitrij/lab-02/sources/Experiment.cpp" "/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o"
+  "/Users/dmitrij/lab-02/sources/Investigation.cpp" "/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o"
+  "/Users/dmitrij/lab-02/sources/lab02_cache.cpp" "/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

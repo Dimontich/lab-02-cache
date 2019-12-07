@@ -18,11 +18,29 @@ vector
 random
 -
 
-/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.cpp
+../include/Investigation.h
+Experiment.h
+../include/Experiment.h
+iostream
+-
+fstream
+-
+cmath
+-
+
+/Users/dmitrij/lab-02/sources/Experiment.cpp
 algorithm
 -
 random
 -
 Experiment.h
-/home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.h
+/Users/dmitrij/lab-02/sources/Experiment.h
+
+/Users/dmitrij/lab-02/sources/Investigation.cpp
+Investigation.h
+/Users/dmitrij/lab-02/sources/Investigation.h
+
+/Users/dmitrij/lab-02/sources/lab02_cache.cpp
+Investigation.h
+/Users/dmitrij/lab-02/sources/Investigation.h
 

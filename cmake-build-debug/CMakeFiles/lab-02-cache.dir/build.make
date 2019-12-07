@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cezar/CERZAR/workspace/labs/lab-02-cache
+CMAKE_SOURCE_DIR = /Users/dmitrij/lab-02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/dmitrij/lab-02/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab-02-cache.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/lab-02-cache.dir/flags.make
 
 CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o: CMakeFiles/lab-02-cache.dir/flags.make
 CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o: ../sources/Investigation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o -c /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Investigation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.o -c /Users/dmitrij/lab-02/sources/Investigation.cpp
 
 CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Investigation.cpp > CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitrij/lab-02/sources/Investigation.cpp > CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.i
 
 CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Investigation.cpp -o CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitrij/lab-02/sources/Investigation.cpp -o CMakeFiles/lab-02-cache.dir/sources/Investigation.cpp.s
 
 CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o: CMakeFiles/lab-02-cache.dir/flags.make
 CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o: ../sources/Experiment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o -c /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o -c /Users/dmitrij/lab-02/sources/Experiment.cpp
 
 CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.cpp > CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitrij/lab-02/sources/Experiment.cpp > CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.i
 
 CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/Experiment.cpp -o CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitrij/lab-02/sources/Experiment.cpp -o CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.s
 
 CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o: CMakeFiles/lab-02-cache.dir/flags.make
 CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o: ../sources/lab02_cache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o -c /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/lab02_cache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o -c /Users/dmitrij/lab-02/sources/lab02_cache.cpp
 
 CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/lab02_cache.cpp > CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitrij/lab-02/sources/lab02_cache.cpp > CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.i
 
 CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cezar/CERZAR/workspace/labs/lab-02-cache/sources/lab02_cache.cpp -o CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitrij/lab-02/sources/lab02_cache.cpp -o CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.s
 
 # Object files for target lab-02-cache
 lab__02__cache_OBJECTS = \
@@ -110,7 +110,7 @@ lab-02-cache: CMakeFiles/lab-02-cache.dir/sources/Experiment.cpp.o
 lab-02-cache: CMakeFiles/lab-02-cache.dir/sources/lab02_cache.cpp.o
 lab-02-cache: CMakeFiles/lab-02-cache.dir/build.make
 lab-02-cache: CMakeFiles/lab-02-cache.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab-02-cache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab-02-cache"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab-02-cache.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/lab-02-cache.dir/clean:
 .PHONY : CMakeFiles/lab-02-cache.dir/clean
 
 CMakeFiles/lab-02-cache.dir/depend:
-	cd /home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cezar/CERZAR/workspace/labs/lab-02-cache /home/cezar/CERZAR/workspace/labs/lab-02-cache /home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug /home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug /home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug/CMakeFiles/lab-02-cache.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dmitrij/lab-02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dmitrij/lab-02 /Users/dmitrij/lab-02 /Users/dmitrij/lab-02/cmake-build-debug /Users/dmitrij/lab-02/cmake-build-debug /Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/lab-02-cache.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab-02-cache.dir/depend
 

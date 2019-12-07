@@ -1,8 +1,8 @@
 # CMake generated Testfile for 
-# Source directory: /home/cezar/CERZAR/workspace/labs/lab-02-cache
-# Build directory: /home/cezar/CERZAR/workspace/labs/lab-02-cache/cmake-build-debug
+# Source directory: /Users/dmitrij/lab-02
+# Build directory: /Users/dmitrij/lab-02/cmake-build-debug
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(unit_tests "tests")
-set_tests_properties(unit_tests PROPERTIES  _BACKTRACE_TRIPLES "/home/cezar/CERZAR/workspace/labs/lab-02-cache/CMakeLists.txt;26;add_test;/home/cezar/CERZAR/workspace/labs/lab-02-cache/CMakeLists.txt;0;")
+set_tests_properties(unit_tests PROPERTIES  _BACKTRACE_TRIPLES "/Users/dmitrij/lab-02/CMakeLists.txt;26;add_test;/Users/dmitrij/lab-02/CMakeLists.txt;0;")
