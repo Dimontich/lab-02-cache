@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17cdfc4c-4675-412a-a7e1-24cdd8653a87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +73,16 @@
       <workItem from="1575710442167" duration="180000" />
       <workItem from="1575712674669" duration="6439000" />
       <workItem from="1575814999722" duration="357000" />
-      <workItem from="1575955471270" duration="988000" />
+      <workItem from="1575955471270" duration="1402000" />
     </task>
+    <task id="LOCAL-00001" summary="555">
+      <created>1575957146930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575957146930</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="555" />
+    <option name="LAST_COMMIT_MESSAGE" value="555" />
   </component>
 </project>
