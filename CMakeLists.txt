@@ -22,6 +22,12 @@ target_include_directories(
         PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
+
+add_executable(
+        tests
+        ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
+)
+
 enable_testing()
 add_test(NAME unit_tests COMMAND tests)
 
