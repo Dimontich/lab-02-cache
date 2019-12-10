@@ -1,4 +1,5 @@
 /Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/test.dir
+/Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/tests.dir
 /Users/dmitrij/lab-02/cmake-build-debug/CMakeFiles/lab-02-cache.dir

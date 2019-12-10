@@ -47,6 +47,48 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tests">
+				<Option output="/Users/dmitrij/lab-02/cmake-build-debug/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitrij/lab-02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/Users/dmitrij/lab-02/cmake-build-debug/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitrij/lab-02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dmitrij/lab-02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="lab-02-cache">
 				<Option output="/Users/dmitrij/lab-02/cmake-build-debug/lab-02-cache" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/dmitrij/lab-02/cmake-build-debug"/>
@@ -100,6 +142,9 @@
 		</Unit>
 		<Unit filename="/Users/dmitrij/lab-02/sources/lab02_cache.cpp">
 			<Option target="lab-02-cache"/>
+		</Unit>
+		<Unit filename="/Users/dmitrij/lab-02/tests/test.cpp">
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/Users/dmitrij/lab-02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
